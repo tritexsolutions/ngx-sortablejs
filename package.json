@@ -18,7 +18,8 @@
     "validate-release": "npm run lint && npm run test:app:ci && npm run test:lib:ci",
     "prepare-release": "npm run build:lib && cp README.md dist/ngx-sortablejs && cp LICENSE.md dist/ngx-sortablejs && npm run build:app",
     "release": "npm run validate-release && npm run prepare-release && semantic-release -d",
-    "release:apply": "npm run validate-release && npm run prepare-release && semantic-release --ci false"
+    "release:apply": "npm run validate-release && npm run prepare-release && semantic-release --ci false",
+    "packagr": "ng-packagr -p ng-package.json"
   },
   "private": true,
   "dependencies": {

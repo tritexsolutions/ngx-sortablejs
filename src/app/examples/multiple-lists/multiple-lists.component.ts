@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SortablejsOptions } from 'ngx-sortablejs';
+import { SortablejsOptions } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs-options';
 
 @Component({
   selector: 'app-multiple-lists',

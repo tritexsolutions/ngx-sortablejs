@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ReactiveFormsModule } from '@angular/forms';
-import { SortablejsModule } from 'ngx-sortablejs';
+import { SortablejsModule } from '../../projects/ngx-sortablejs/src/lib/sortablejs.module';
 import { SortableFormArrayComponent } from './sortable-form-array.component';
 
 describe('SortableFormArrayComponent', () => {

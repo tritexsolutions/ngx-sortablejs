@@ -133,7 +133,7 @@ The only thing which should be done is assigning the `group` option to the both 
 
 ```typescript
 import { Component } from '@angular/core';
-import { SortablejsOptions } from 'ngx-sortablejs';
+import { SortablejsOptions } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs-options';
 
 @Component({
     selector: 'my-app',
@@ -167,7 +167,7 @@ If you want to clone the item being sorted in a different manner, you can provid
 
 ```typescript
 import { Component } from '@angular/core';
-import { SortablejsOptions } from 'ngx-sortablejs';
+import { SortablejsOptions } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs-options';
 
 @Component({
     selector: 'my-app',
